@@ -1,0 +1,6 @@
+Admins are able to delete posts.  That's the only thing they can do that's different than a Normal user.
+
+To make someone an admin, you need to go into the Database, and set user_admin to this:
+	
+	0 - Not An Admin
+	1 - Is An Admin

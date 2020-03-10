@@ -1,0 +1,30 @@
+#1.4 - 10/19/2019
+- Added a Comments Section for each Article.
+	- The person who posted the Comment can delete it.  Admins can delete any Comment too.
+	- The person who posted the Article can delete any comment too.
+
+#1.3 - 10/17/2019
+- Added a secondary view counter layer.  You can't refresh the page and keep getting views for the Article you're on.
+
+#1.2 - 10/17/2019
+- Added View Count for each article.  Views are found right after the poster's username.
+    - Views are incremented by 1 every time a user visits the page.  
+   		- Known issue: When page is refreshed, the Views still goes up by one.  Trying to fix to avoid view spam/botting.
+
+- Added New Admin Feature: Reset Views for any article;  In the article file for each article,
+  Admins will see a link "(Admin) Reset Views", and when clicked, that resets the Article's views, and redirects
+  back to the article page for it.
+
+- Added Extra Security to the Admin Features: Delete Post & Reset Views.  Users must be logged in
+  and be an Admin to do either of those features.
+
+#1.1 - 10/17/2019
+- Added Markdown Support, both listing Article and while creating.
+
+#1.0 - 9-10/~~/2019
+- First Release.  Contains:
+	- Create Account, Log In, Create Post, Admins can Delete posts.
+
+Dates: month/day/year
+If day is ~~ it means that it's unspecified.
+x-y means it was between x and y
