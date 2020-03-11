@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    border: 0px red solid;
+  }
+  
+  button {
+    border-radius: 20%;
+    border-style: solid;
+    background-color: grey;
+    
+    padding: 10px 10px 10px 10px;
+    
+  }
